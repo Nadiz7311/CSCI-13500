@@ -2,20 +2,23 @@
 CUNY Hunter College Summer 2026 official course repository. 
 
 ## Questions
-Common issues you may face and a quick guide to resolution!
+Common issues you may face and a quick guide to resolution! 
 ### How do I safely get copies of updates on this repo into my local repo?
-In order to grab new assignment updates, you want to follow the steps steps. 
+To get the latest assignment updates while keeping your own work, follow these steps:  
 
-1. Save all your changes in your local copy
-2. Get the new changes from the online repo
+1. Save your local changes  
+2. Download and apply the newest changes from the online repository  
 
-Use the prompts below as a step-by-step guide on how to safely keep your changes and access new ones. 
+Run the following commands inside your cloned repository:  
+**Note: This only works once you have already cloned this repo**
 
 ```
 git add .
 git commit -m "work in progress"
 git pull --rebase
 ```
+
+If Git reports a merge conflict, it means the same lines were changed both locally and online. Git will ask you to resolve the conflict manually before continuing.  
 
 ## C++ Learning Resources
 
